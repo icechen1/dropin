@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Dropin</title>
+
+        <!-- CSS  -->
+        <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text">My Dropin</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Drop files here to share or</h5>
+                    <form id="file-form" action="/upload" method="POST">
+                        <input type="file" id="file-select" name="files[]" multiple/>
+
+                        </div>
+                    <div class="row center">
+                        <button type="submit" class="btn-large waves-effect waves-light orange"  id="upload-button">Upload</button>
+
+                    </div>
+                    </form>
+                <br><br>
+
+            </div>
+        </div>
+
+
+        <footer class="orange">
+            <div class="footer-copyright">
+                <div class="container">
+                    Made by <a class="orange-text lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+    </body>
+</html>
